@@ -1,0 +1,8 @@
+function zeros (n) {
+  if(Number.isInteger(n)){
+  if(n>5) return Math.floor(((n/5)+ zeros(n/5)))
+  else return Math.floor(n/5)
+}
+  else return 0
+  }
+ 
