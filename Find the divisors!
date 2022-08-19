@@ -1,0 +1,9 @@
+function divisors(integer) {
+    let arrInt=[]
+    for(let i =2;i<integer;i++){
+      if(Number.isInteger(integer/i)) {
+        arrInt.push(i)}
+    }
+    if(arrInt.length===0)  return `${integer} is prime`
+    return arrInt
+  };
