@@ -1,0 +1,8 @@
+const divisions = (n, divisor) => {
+  let i=0
+  for( ;n>=divisor;i++)
+    {
+      n/=divisor
+    }
+  return i;
+}
