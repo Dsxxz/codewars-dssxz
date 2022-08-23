@@ -1,0 +1,13 @@
+String.prototype.isUpperCase = function() {
+ 
+    const test = this.toUpperCase()
+    
+    if(test==this)
+      {
+        return true
+      }
+    else
+      {
+        return false
+      }
+  }
