@@ -1,0 +1,5 @@
+function divisibleBy(numbers, divisor){
+
+  let Arr=numbers.filter(number => number%divisor===0)
+  return Arr
+  }
