@@ -1,0 +1,13 @@
+function findMultiples(integer, limit) {
+
+  const arr=[]
+    const multiple=integer
+    
+    for(let i =0; integer<=limit;i++)
+      {
+        arr.push(integer)
+        integer+=multiple
+      }
+  
+  return arr
+}
