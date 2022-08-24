@@ -1,0 +1,10 @@
+function countBy(x, n) {
+  let z = [];
+  const num=x
+for(let i=0;i<n;i++)
+  {
+    z.push(x)
+    x+=num
+  }
+  return z;
+}
