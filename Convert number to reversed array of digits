@@ -1,0 +1,7 @@
+function digitize(n) {
+ 
+  const num = n.toString().split('')
+  const arr = num.map(Number)
+  return arr.reverse()
+  
+}
