@@ -1,0 +1,11 @@
+function generateShape(integer){
+  
+  let arr=''
+  for(let i =0;i<integer;i++)
+    { 
+      for(let j=0;j<integer;j++){arr+='+'} 
+   if(i!==integer-1)arr+='\n'}
+  
+
+return arr
+}
